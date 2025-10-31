@@ -1,0 +1,20 @@
+{
+    "endpoints": [
+        "https://api.example.com/health",
+        "https://api.example.com/status",
+        "https://api.example.com/metrics"
+    ],
+    "timeout": 30,
+    "check_interval": 300,
+    "max_history": 100,
+    "enable_alerts": true,
+    "smtp_config": {
+        "server": "smtp.example.com",
+        "port": 587,
+        "use_tls": true,
+        "username": "alerts@example.com",
+        "password": "your_password",
+        "from_email": "alerts@example.com",
+        "to_email": "admin@example.com"
+    }
+}
